@@ -2,7 +2,11 @@
 /* CSS Document */
 
 body {
+	background: url(../images/static.gif);
+}
+.main {
 	background: #401410;
+	opacity: 0.8;
 }
 .logo {
 	margin: 40px 0px;
