@@ -8,6 +8,12 @@ body {
 	background: #401410;
 	opacity: 0.8;
 }
-.logo {
+.main .logo {
 	margin: 40px 0px;
+}
+.social {
+	background: #401410;
+}
+.footer {
+	background: #401410;
 }
