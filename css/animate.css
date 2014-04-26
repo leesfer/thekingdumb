@@ -1021,8 +1021,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .fadeFlash {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
+  -webkit-animation-name: fadeFlash;
+  animation-name: fadeFlash;
 }
 
 @-webkit-keyframes fadeIn {
