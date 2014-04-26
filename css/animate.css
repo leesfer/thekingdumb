@@ -1007,7 +1007,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-@keyframes fadeIn {
+@keyframes fadeFlash {
 	0% {
 	opacity: 1;
 	}
@@ -1020,7 +1020,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-.fadeIn {
+.fadeFlash {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
