@@ -13,9 +13,11 @@ body {
 }
 .social {
 	background: #320d0b;
-	padding: 40px 0px;
+	padding: 20px 0px;
 }
 .footer {
 	background: #250a08;
 	padding: 40px 0px;
+	color: #fff;
+	text-align: center;
 }
