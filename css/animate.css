@@ -20,12 +20,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   animation-fill-mode: both;
 }
 .animated.delay {
-	animation-delay: 1s;
-	-webkit-animation-delay: 1s;
+	animation-delay: 2s;
+	-webkit-animation-delay: 2s;
 }
 .animated.slow {
-	-webkit-animation-duration: 3s !important;
-  animation-duration: 3s !important;
+	-webkit-animation-duration: 4s !important;
+  animation-duration: 4s !important;
 }
 .animated.infinite {
   -webkit-animation-iteration-count: infinite;
