@@ -19,7 +19,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-.animated_slow {
+.animated.delay {
+	animation-delay:2s;
+	-webkit-animation-delay:2s;
+}
+.animated.slow {
 	-webkit-animation-duration: 3s !important;
   animation-duration: 3s !important;
 }
@@ -1002,7 +1006,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	opacity: 1;
 	}
   50% {
-    opacity: 0.7;
+    opacity: 0.8;
   }
 
   100% {
@@ -1015,7 +1019,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	opacity: 1;
 	}
   50% {
-    opacity: 0.7;
+    opacity: 0.8;
   }
 
   100% {
