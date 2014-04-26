@@ -3,6 +3,7 @@
 
 body {
 	background: url(../images/static.gif);
+	font-family: 'Coming Soon', 'cursive';
 }
 .main {
 	background: #401410;
@@ -18,6 +19,11 @@ body {
 .footer {
 	background: #250a08;
 	padding: 40px 0px;
-	color: #fff;
 	text-align: center;
+}
+.footer h2 {
+	color: #9d4e4c;
+}
+.footer h1 {
+	color: #f3c4a8;
 }
