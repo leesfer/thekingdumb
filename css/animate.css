@@ -29,9 +29,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
 }
-.animated.repeat {
-	animation-iteration-count: infinite;
-}
 
 @-webkit-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
