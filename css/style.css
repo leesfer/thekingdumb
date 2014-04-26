@@ -26,4 +26,11 @@ body {
 }
 .footer p {
 	color: #f3c4a8;
+	font-size: 18px;
+}
+.copyright {
+	background: #1b0706;
+	padding: 20px 0px;
+	color: #320d0b;
+	font-size: 11px;
 }
