@@ -10,7 +10,9 @@ body {
 	opacity: 0.8;
 }
 .main h1 {
-	text-indent: 9999;
+	text-indent: -9999px;
+	margin: 0px;
+	line-height: 0px;
 }
 .main .logo {
 	margin: 40px 0px;
