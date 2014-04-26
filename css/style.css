@@ -9,6 +9,9 @@ body {
 	background: #401410;
 	opacity: 0.8;
 }
+.main h1 {
+	text-indent: 9999;
+}
 .main .logo {
 	margin: 40px 0px;
 }
