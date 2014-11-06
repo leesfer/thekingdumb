@@ -15,7 +15,10 @@ body {
 	line-height: 0px;
 }
 .main .logo {
-	margin: 40px 0px;
+	margin: 40px 0px 0px 0px;
+}
+.main .kings {
+	margin: 0px 0px 40px 0px;
 }
 .social {
 	background: #2e100e;
