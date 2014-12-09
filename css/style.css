@@ -109,6 +109,12 @@ font-size: 40px;
 	background: #ebcb6a;
 	padding: 40px;
 }
+.epk .epk_lower .epk_support h3 {
+	font-size: 12px;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
 .epk .epk_lower .epk_heads {
 	padding: 60px 0px;
 	background: rgba(46,16,14,0.8);
