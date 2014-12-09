@@ -105,6 +105,15 @@ body {
 .epk .epk_lower .epk_who h3 {
 font-size: 40px;
 }
+.epk .epk_lower .epk_who .panel {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 900;
+}
+.epk .epk_lower .epk_who .panel b {
+	font-size: 30px;
+	font-weight: 100;
+}
 .epk .epk_lower .epk_support {
 	background: #ebcb6a;
 	padding: 40px;
@@ -113,7 +122,9 @@ font-size: 40px;
 	font-size: 12px;
 	font-weight: 900;
 	text-transform: uppercase;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
+	color: #8c7223;
+	margin-top: 0px;
 }
 .epk .epk_lower .epk_heads {
 	padding: 60px 0px;
