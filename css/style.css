@@ -88,12 +88,18 @@ body {
 	margin-left: -39px;
 }
 .epk .epk_lower {
-	background: url(../images/epk/epk_mainbg.jpg);
+	background: rgba(46,16,14,0.8);
 	position: absolute;
 	top: 100%;
 	left: 0px;
 	bottom: 0px;
 	right: 0px;
 	width: 100%;
-	height: auto;
+}
+.epk .epk_lower .epk_who {
+	background: #fff;
+	padding: 60px 0px;
+}
+.epk .epk_lower .epk_heads {
+	padding: 60px 0px;
 }
