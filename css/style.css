@@ -106,3 +106,16 @@ body {
 	padding: 60px 0px;
 	background: rgba(46,16,14,0.8);
 }
+.epk .epk_lower .epk_disco {
+	background: url(../images/epk/epk_disco_bg.jpg);
+	padding: 60px 0px;
+}
+.epk .epk_lower .epk_disco h3 {
+	color: #ebcb6a;
+	font-size: 70px;
+}
+.epk .epk_lower .epk_button {
+	border: 2px solid #fff;
+	color: #ebcb6a;
+	padding: 14px 22px;
+}
