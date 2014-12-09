@@ -70,9 +70,10 @@ body {
 }
 .epk .epk_main .epk_main_logo {
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	margin-top: -200px;
 	width: 100%;
+	left: -15px;
 }
 .epk .epk_main h1 {
 	text-align: center;
