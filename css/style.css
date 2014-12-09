@@ -46,3 +46,43 @@ body {
 	color: #5f2b28;
 	font-size: 11px;
 }
+
+/* EPK */
+
+.epk {
+	font-family: 'Roboto', sans-serif;
+}
+.epk .epk_pacifico {
+	font-family: 'Pacifico', cursive;
+}
+.epk .epk_serif {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+.epk .epk_main {
+	background: url(../images/epk/epk_mainbg.jpg);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 100%;
+	height: 100%;
+}
+.epk .epk_main h1 {
+	text-align: center;
+	letter-spacing: 20px;
+	font-weight: 100;
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.epk .epk_lower {
+	background: url(../images/epk/epk_mainbg.jpg);
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 100%;
+	height: auto;
+}
