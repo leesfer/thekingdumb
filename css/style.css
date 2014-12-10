@@ -106,7 +106,8 @@ body {
 font-size: 40px;
 }
 .epk .epk_lower .epk_who p {
-	line-height: 30px;
+	line-height: 32px;
+	font-size: 16px;
 }
 .epk .epk_lower .epk_who .panel {
 	text-transform: uppercase;
