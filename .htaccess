@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Electronic Press Kit"
-AuthUserFile /www/epk/.htpasswd
-Require valid-user
