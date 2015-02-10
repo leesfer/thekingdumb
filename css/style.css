@@ -21,23 +21,23 @@ body {
 	margin: 0px 0px 40px 0px;
 }
 .social {
-	background: #2e100e;
+	background: #17212e;
 	padding: 20px 0px;
 }
 .footer {
-	background: #250a08;
+	background: #1e2937;
 	padding: 40px 0px;
 	text-align: center;
 }
 .footer h2 {
-	color: #9d4e4c;
+	color: #5599c0;
 }
 .footer p {
-	color: #f3c4a8;
+	color: #cfd2c0;
 	font-size: 18px;
 }
 .footer span {
-	color: #5f2b28;
+	color: #5599c0;
 	font-size: 200%;
 }
 .copyright {
