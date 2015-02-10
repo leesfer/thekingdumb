@@ -4,6 +4,7 @@
 body {
 	background: url(../images/static.gif);
 	font-family: 'Coming Soon', 'cursive';
+	color: #070c13;
 }
 .main {
 	background: #070c13;
@@ -193,12 +194,12 @@ margin-top: 20px;
 .epk .epk_lower .epk_contact {
 	padding: 80px 0px;
 	color: #ecc817;
-	background: rgba(46,16,14,0.8);
+	background: rgba(7,12,19,0.8);
 }
 .epk .epk_lower .epk_contact h3 {
 	font-size: 40px;
 }
 .epk .epk_lower .epk_disco .epk_track_player {
-	background: #2e100e;
+	background: #17212e;
 	padding: 10px 10px 6px 10px;
 }
