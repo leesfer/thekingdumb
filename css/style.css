@@ -5,6 +5,7 @@ body {
 	background: url(../images/static.gif);
 	font-family: 'Coming Soon', 'cursive';
 	color: #070c13;
+	background-attachment: fixed;
 }
 .main {
 	background: #070c13;
