@@ -138,6 +138,7 @@ font-size: 40px;
 .epk .epk_lower .epk_disco {
 	background: url(../images/epk/epk_disco_bg.jpg);
 	padding: 80px 0px 140px 0px;
+	border-top: 6px solid #ecc817;
 }
 .epk .epk_lower .epk_disco h3 {
 	color: #ecc817;
