@@ -52,10 +52,11 @@ body {
 	font-size: 200%;
 }
 .copyright {
-	background:#17212e;
+	background: #1e2937;
 	padding: 20px 0px;
 	color: #cfd2c0;
 	font-size: 11px;
+	text-align: center;
 }
 
 /* EPK */
