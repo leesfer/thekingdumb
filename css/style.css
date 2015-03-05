@@ -221,3 +221,6 @@ margin-top: 20px;
 .tour {
 	background: #1e2937;
 }
+.tour .mainimage {
+	margin: 40px 0px;
+}
