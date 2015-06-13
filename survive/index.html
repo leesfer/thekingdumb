@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>SURVIVE!</title>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script>
+$( document ).ready(function() {
+	
+var pad = function(n) { return (''+n)};
+
+jQuery.fn.timer = function() {
+    var t = this, i = 0;
+    setInterval(function() {
+        t.text(pad(i++));
+    }, 2000);
+};
+                
+$('#timer').timer();
+
+});
+</script>
+<style>
+body {
+background: #000;
+color: #fff;
+overflow: hidden;
+}
+p {
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	font-size: 80px;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+.survivor {
+width: 600px;
+height: 600px;
+position: absolute;
+left: 50%;
+margin-left: -300px;
+top: 50%;
+margin-top: -300px;
+background: url(../images/spinning.png);
+animation:spin 2s linear infinite;
+}
+@keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+</style>
+</head>
+
+<body>
+<div class="survivor spin"></div>
+<p id="timer">0</p>
+<iframe width="0" height="0" src="https://www.youtube.com/embed/DnsDbOi6sTY?autoplay=1" frameborder="0" allowfullscreen></iframe>
+</body>
+</html>
