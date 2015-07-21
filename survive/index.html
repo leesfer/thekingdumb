@@ -20,6 +20,14 @@ $('#timer').timer();
 
 });
 </script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=196467733787057";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <style>
 body {
 background: #000;
@@ -51,6 +59,12 @@ animation:spin 2s linear infinite;
 }
 @keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+.social {
+	position: absolute;
+	right: 40px;
+	bottom: 40px;
+	z-index: 999;
+}
 </style>
 </head>
 
@@ -60,5 +74,12 @@ animation:spin 2s linear infinite;
 <audio loop="loop" autoplay="autoplay">
     <source src="../sounds/spinme.mp3" type="audio/mpeg" />
 </audio>
+<div class="social">
+<center>
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="vertical" data-text="How many spins can you survive?" data-via="badroyalemusic" data-related="badroyalemusic" data-hashtags="badroyalesurvive">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
+</center>
+</div>
 </body>
 </html>
