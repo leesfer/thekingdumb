@@ -205,6 +205,29 @@ body {
 .collabbottom .entershit .submitremix {
 	height: 140px;
 	background: #3d386b;
+	padding: 20px;
+}
+.collabbottom .entershit .submitremix a {
+	background: transparent;
+	border: 1px solid #fff;
+	box-shadow: 0px 4px 0px rgba(0,0,0,0.2);
+	color: #fff;
+	font-weight: 700;
+	font-size: 20px;
+	border-radius: 5px;
+	display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 100px;
+    text-align: center;
+	text-decoration: none;
+}
+.collabbottom .entershit .submitremix a:hover {
+	background: #fff600;
+	color: #3d386b;
+}
+.collabbottom .entershit .submitremix a img {
+	margin-right: 20px;
 }
 .collabbottom .footer {
 	font-size: 10px;
