@@ -249,3 +249,116 @@ body {
 		background: url(../images/main_collab_bg.png) center center #00a2ff no-repeat;
 
 }
+
+/* MOBILE */
+
+
+@media (max-width:767px){
+	.collabtop {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: url(../images/main_collab_bg.png) center center yellow no-repeat;
+    -webkit-animation: colour 10s linear infinite;
+    -moz-animation: colour 10s linear infinite;
+    background-size: 120%;
+	}
+	@-webkit-keyframes colour{
+	0%{
+		background: url(../images/main_collab_bg.png) center center #00a2ff no-repeat;
+		background-size: 120%;
+	}
+	25%{
+		background: url(../images/main_collab_bg.png) center center #ff0042 no-repeat;
+	}
+	50%{
+		background: url(../images/main_collab_bg.png) center center #ffea00 no-repeat;
+	}
+	75%{
+		background: url(../images/main_collab_bg.png) center center #84ff00 no-repeat;
+	}
+	100%{
+		background: url(../images/main_collab_bg.png) center center #00a2ff no-repeat;
+		background-size: 120%;
+	}
+
+}
+
+@-moz-keyframes colour{
+	0%{
+		background: url(../images/main_collab_bg.png) center center #00a2ff no-repeat;
+		background-size: 120%;
+	}
+	25%{
+		background: url(../images/main_collab_bg.png) center center #ff0042 no-repeat;
+	}
+	50%{
+		background: url(../images/main_collab_bg.png) center center #ffea00 no-repeat;
+	}
+	75%{
+		background: url(../images/main_collab_bg.png) center center #84ff00 no-repeat;
+	}
+	100%{
+		background: url(../images/main_collab_bg.png) center center #00a2ff no-repeat;
+		background-size: 120%;
+}
+
+	.collabbottom .introduction {
+		margin: 60px 0px 150px 0px;
+	}
+	.collabbottom .introduction img {
+		width: 100%;
+	}
+	.collabbottom .introduction p {
+    font-size: 20px;
+    line-height: 35px;
+    padding: 70px 0px;
+}
+.collabbottom .introduction p:before {
+	display: none;
+}
+.collabbottom .introduction p:after {
+    bottom: -90px;
+    left: 108px;
+}
+	.collabbottom .grandprize {
+		padding-bottom: 30px;
+	}
+	.collabbottom .grandprize_text p {
+    padding: 10px;
+}
+.collabbottom .grandprize_text p:after {
+	display: none;
+	right: 30px;
+    top: 80px;
+}
+.collabbottom .grandprize_text .col-sm-4:last-child p:after {
+	display: block;
+}
+	.collabbottom .entershit .howto_top {
+		height: 160px;
+		width: 100%;
+		background-size: 110%;
+	}
+	.collabbottom .entershit .howto_bottom {
+    height: auto;
+    font-size: 14px;
+    padding: 20px;
+}
+.collabbottom .entershit .download .icon {
+	display: none;
+}
+.collabbottom .entershit .download a {
+    top: auto;
+    right: auto;
+    margin: 24px;
+}
+}
+@media (min-width:768px) and (max-width:991px){
+}
+@media (min-width:992px) and (max-width:1199px){
+}
