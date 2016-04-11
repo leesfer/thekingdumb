@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.collabtop {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: url(../images/main_collab_bg.png) center center yellow no-repeat;
+	-webkit-animation:colour 10s linear infinite;
+	-moz-animation:colour 10s linear infinite;
+}
+.collabtop .downarrow {
+	position: absolute;
+	left: 50%;
+	margin-left: -20px;
+	bottom: 40px;
+	background: url(../images/icon_downarrow.png);
+	width: 40px;
+	height: 39px;
+}
+.collabbottom {
+	position: absolute;
+	width: 100%;
+	top: 100%;
+	background: #16181b;
+	overflow: hidden;
+}
+.collabbottom .bg_left {
+	background: url(../images/bg_collab_left.jpg);
+	width: 826px;
+	height: 1822px;
+	position: absolute;
+	top: 0px;
+	left: -260px;
+	z-index: 200;
+}
+.collabbottom .bg_right {
+	background: url(../images/bg_collab_right.jpg);
+	width: 1014px;
+	height: 1668px;
+	position: absolute;
+	top: 0px;
+	right: -280px;
+	z-index: 100;
+}
+.collabbottom .content {
+	position: relative;
+	z-index: 300;
+}
+.collabbottom .introduction {
+	float: left;
+	padding: 160px 0px 280px 0px;
+	color: #fff;
+}
+.collabbottom .introduction p {
+	font-size: 30px;
+	font-weight: 100;
+	font-style: italic;
+	line-height: 46px;
+	padding: 160px 0px;
+	position: relative;
+}
+.collabbottom .introduction p:before {
+	content: "";
+	background: url(../images/collab_arrow_one.png);
+	width: 179px;
+	height: 50px;
+	position: absolute;
+	top: 40px;
+	left: -80px;
+}
+.collabbottom .introduction p:after {
+	content: "";
+	background: url(../images/collab_arrow_two.png);
+	width: 74px;
+	height: 118px;
+	position: absolute;
+	bottom: -240px;
+	left: -240px;
+}
+.collabbottom .grandprize_text {
+	color: #fff;
+	font-size: 	16px;
+	font-weight: 700;
+	font-style: italic;
+	text-align: center;
+}
+.collabbottom .grandprize_text p {
+	position: relative;
+	padding: 60px;
+}
+.collabbottom .grandprize_text p:after {
+	content: "";
+	position: absolute;
+	right: -20px;
+	top: 70px;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background: yellow;
+}
+.collabbottom .grandprize_text .col-sm-4:last-child p:after {
+	background: url(../images/collab_arrow_three.png);
+	width: 99px;
+	height: 120px;
+	right: -40px;
+	top: 100px;
+}
+.collabbottom .entershit {
+	padding-top: 200px;
+}
+.collabbottom .entershit .howto_top {
+	background: url(../images/howtoenter.png) center center no-repeat #fff;
+	overflow: hidden;
+	height: 330px;
+	width: 100%;
+}
+.collabbottom .entershit .howto_bottom {
+	background: #fff;
+	height: 140px;
+	width: 100%;
+	color: #000;
+	margin-top: 1px;
+	font-size: 20px;
+	font-style: italic;
+	color: #000;
+	text-align: center;
+	font-weight: 700;
+	padding: 28px 108px;
+}
+.collabbottom .entershit .friends {
+	background: #fff600;
+	padding-top: 16px;
+}
+.collabbottom .entershit .friends .friendrow {
+	border-top: 1px solid #e3dc2a;
+	width: 100%;
+	color: #000;
+	font-size: 16px;
+	font-weight: 300;
+	padding-left: 15px;
+}
+.collabbottom .entershit .friends .friendrow .right {
+	width: 35%;
+	height: 70px;
+	float: right;
+	display: inline-block;
+	border-left: 1px solid #e3dc2a;
+	padding: 24px 15px;
+}
+.collabbottom .entershit .friends .friendrow p {
+	line-height: 70px;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	display: inline-block;
+	width: 65%;
+}
+.collabbottom .entershit .friends .friendrow p:after {
+	content: "";
+	width: 11px;
+	height: 17px;
+	background: url(../images/friends_arrow.png);
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	margin-top: -9px;
+}
+.collabbottom .entershit .download {
+	background: #fff;
+	margin-top: 1px;
+	height: 100px;
+}
+.collabbottom .entershit .download .icon {
+	background: url(../images/icon_download.jpg);
+	width: 46px;
+	height: 46px;
+	display: inline-block;
+	margin: 27px 5px 27px 26px;
+}
+.collabbottom .entershit .download a {
+	border: 1px solid #3d386b;
+	box-shadow: 0px 2px 0px rgba(0,0,0,0.2);
+	color: #3d386b;
+	font-weight: 700;
+	font-size: 16px;
+	padding: 14px 20px;
+	border-radius: 5px;
+	display: inline-block;
+	top: -45px;
+    position: relative;
+    right: -15px;
+}
+.collabbottom .entershit .download a span {
+	font-weight: 300;
+	font-size: 12px;
+}
+.collabbottom .entershit .submitremix {
+	height: 140px;
+	background: #3d386b;
+}
+.collabbottom .footer {
+	font-size: 10px;
+	color: #fff;
+	margin-top: 100px;
+	padding-bottom: 40px;
+	float: left;
+}
+@-webkit-keyframes colour{
+	0%{
+		background: url(../images/main_collab_bg.png) center center #00a2ff no-repeat;
+	}
+	25%{
+		background: url(../images/main_collab_bg.png) center center #ff0042 no-repeat;
+	}
+	50%{
+		background: url(../images/main_collab_bg.png) center center #ffea00 no-repeat;
+	}
+	75%{
+		background: url(../images/main_collab_bg.png) center center #84ff00 no-repeat;
+	}
+	100%{
+		background: url(../images/main_collab_bg.png) center center #00a2ff no-repeat;
+	}
+
+}
+
+@-moz-keyframes colour{
+	0%{
+		background: url(../images/main_collab_bg.png) center center #00a2ff no-repeat;
+	}
+	25%{
+		background: url(../images/main_collab_bg.png) center center #ff0042 no-repeat;
+	}
+	50%{
+		background: url(../images/main_collab_bg.png) center center #ffea00 no-repeat;
+	}
+	75%{
+		background: url(../images/main_collab_bg.png) center center #84ff00 no-repeat;
+	}
+	100%{
+		background: url(../images/main_collab_bg.png) center center #00a2ff no-repeat;
+
+}
