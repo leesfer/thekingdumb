@@ -271,12 +271,15 @@ body {
 }
  25% {
  background: url(../images/main_collab_bg.png) center center #ff0042 no-repeat;
+ background-size: 120%;
 }
  50% {
  background: url(../images/main_collab_bg.png) center center #ffea00 no-repeat;
+ background-size: 120%;
 }
  75% {
  background: url(../images/main_collab_bg.png) center center #84ff00 no-repeat;
+ background-size: 120%;
 }
  100% {
  background: url(../images/main_collab_bg.png) center center #00a2ff no-repeat;
@@ -290,12 +293,15 @@ body {
 }
  25% {
  background: url(../images/main_collab_bg.png) center center #ff0042 no-repeat;
+ background-size: 120%;
 }
  50% {
  background: url(../images/main_collab_bg.png) center center #ffea00 no-repeat;
+ background-size: 120%;
 }
  75% {
  background: url(../images/main_collab_bg.png) center center #84ff00 no-repeat;
+ background-size: 120%;
 }
  100% {
  background: url(../images/main_collab_bg.png) center center #00a2ff no-repeat;
